@@ -5,4 +5,7 @@ function addUpTo(n) {
     }
     return total
 }
-console.log(addUpTo(3))
+var T1 = performance.now();
+addUpTo(1000000000)
+var t2 = performance.now
+console.log(`Tempo decorrido : ${(t2 - t1 / 1000)} segundos.`)
